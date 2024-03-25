@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey_Form</title>
+    <meta name="viewport" content="width=device-width, initial-scaled=1, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>    
+<body>
+    <div class = "heading">
+        <h1 id="head"> PERSONAL INFORMATION SURVEYOR </h1>
+        <h2 id="subheading">WELCOME TO THE SURVEY</h2>
+        <a href="about.html">ABOUT</a>
+    </div>
+    <form>
+        <div id="content1">
+            <label>Name</label> <br><br>
+            <input type="name" name="name" placeholder="Enter your name" class="box"> <br><br>
+            <label>Contact Number</label> <br><br>
+            <input type="number" name="number" placeholder="Enter your Contact Number " class="box"> <br><br>
+            <label>What is your Status</label><br><br>
+        
+
+        <div id="option1">
+            <select>
+                <option name="STATUS">STATUS</option>
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="Divorced">Divorced</option>
+            </select>
+        </div>
+        <br>
+
+        
+        <label id="head2"> Educational Attainment (Check all that apply)</label><br>
+        <div id="content2">
+            <input type="checkbox" name="checkbox" class="larger"><label>Kindergarten</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>Elementary</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>Junior High School</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>Senior High School</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>College</label><br><br>
+        </div>
+
+
+        <label id="head1"> Would you recommend this survey to everyone? </label><br><br>
+        <input type="radio" name="radio" class="larger"> &nbsp&nbsp&nbspYes<br><br>
+        <input type="radio" name="radio" class="larger"> &nbsp&nbsp&nbspMaybe<br><br>
+        <input type="radio" name="radio" class="larger"> &nbsp&nbsp&nbspNo<br><br>
+
+
+        <label id="head2">Any comments or suggestion?</label><br><br>
+        <textarea placeholder="Enter Suggestion Here"></textarea><br>
+        <button><h3>Submit</h3></button>
+    </form>
+</body>
+</html>
